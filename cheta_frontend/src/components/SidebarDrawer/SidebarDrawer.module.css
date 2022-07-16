@@ -1,0 +1,11 @@
+
+.swipeableDrawer {
+  overflow: hidden;
+}
+
+
+.togglerClose {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}

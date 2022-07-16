@@ -1,0 +1,79 @@
+
+.container {
+  padding: 10% 5%;
+}
+
+.container .logo {
+  width: 50%;
+}
+
+
+/* .container .links {
+  overflow-y: scroll;
+} */
+
+.container .links a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .links a:hover {
+  color: orange;
+}
+
+.container .avatar {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 80%;
+  display: flex;
+  padding: 1% 10%;
+  gap: 5%;
+  align-items: center;
+  box-shadow: 0 0 20px rgb(209, 209, 209);
+}
+
+.container p {
+  line-height: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( min-width: 700px ) {
+  .container {
+    width: 15%;
+    padding: 2%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0 10px 10px rgb(204, 204, 204);
+  }
+
+  body {
+    margin: 2% 0 0 22%;
+    padding: 0;
+  }
+
+  .container h3 {
+    text-align: left;
+    font-size: 0.9em;
+  }
+
+  .container .avatar {
+    padding-bottom: 25%;
+  }
+}

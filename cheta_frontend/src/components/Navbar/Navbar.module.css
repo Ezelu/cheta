@@ -1,0 +1,54 @@
+
+
+.user {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.user_avatar {
+  display: inline-block;
+}
+
+.login {
+  display: block;
+  text-align: right;
+}
+
+.login button {
+  height: 40px;
+  outline: 0;
+  padding: 0;
+  border: 0;
+  width: 30%;
+  font-size: 1em;
+  background: #28003b;
+  color: white;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.login button:hover {
+  background: #d06700
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  .user_avatar {
+    display: none;
+    width: 0%;
+    visibility: hidden;
+  }
+}
+

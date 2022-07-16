@@ -1,0 +1,144 @@
+
+.container {
+  /* justify-content: center; */
+  /* padding: 0 35% */
+}
+
+.container .error_msg {
+  color: red;
+}
+
+.semi_container {
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 30% 65%;
+  gap: 5%;
+  padding: 2%;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(199, 199, 199);
+  margin: 5% 0;
+  background: white;
+  transition: background 0.4s ease, transform 0.9s ease;
+  height: auto;
+}
+
+.semi_container .file_btn {
+  font-size: 2em;
+}
+
+
+
+
+
+.semi_container .edit_img {
+  position: relative;
+  width: 100%;
+}
+
+.semi_container img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.semi_container .edit_img .deleteButton {
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  background: rgb(40, 0, 59);
+  color: white;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.semi_container .edit_img .deleteButton:hover {
+  background: #d06700;
+  color: black;
+}
+
+
+
+
+
+
+.main_form {
+  display: grid;
+  grid-template-columns: auto;
+  height: auto;
+  overflow: auto;
+}
+
+.main_form .user_avatar {
+  display: flex;
+  gap: 2%;
+  margin-top: 4%;
+}
+
+.main_form button {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  height: 40px;
+  outline: 0;
+  border-radius: 5px;
+  border: 0;
+  background: #28003b;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .semi_container {
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5%;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(199, 199, 199);
+    margin: 5% 0;
+    background: white;
+    transition: background 0.4s ease, transform 0.9s ease;
+    overflow: auto;
+  }
+
+  .semi_container img {
+    height: 300px
+  }
+
+  .semi_container .main_form {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

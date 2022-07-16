@@ -1,0 +1,98 @@
+
+.Pin_container {
+  padding: 2%;
+}
+
+.Pin_container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Pin_container .pin {
+  cursor: zoom-in;
+  position: relative;
+}
+
+.Pin_container .actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+  z-index: 50;
+}
+
+.Pin_container .actions .action_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Pin_container .action_div .action_div_inner {
+  display: flex;
+  gap: 2%;
+}
+
+.action_div .download {
+  background: rgba(40, 0, 59, 0.7);
+  color: white;
+  transition: background 0.5s ease;
+}
+
+.action_div .download:hover {
+  background: rgba(208, 103, 0, 0.7)
+}
+
+.action_div .btn {
+  outline: 0;
+  border: 0;
+  height: 20px;
+  background:rgba(208, 103, 0, 0.7);
+  color: white;
+  border-top-left-radius: 20px;
+  padding: 1% 5%;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+}
+
+.actions .destination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2% 5%;
+  width: 92%;
+  background: white;
+  padding: 2% 4%;
+  border-radius: 20px;
+}
+
+.actions .destination a {
+  text-decoration: none;
+  color: rgb(40, 0, 59)
+}
+
+.actions .destination button {
+  color: darkred;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+
+
+
+.post_info a {
+  display: flex;
+  color: black;
+  align-items: center;
+  gap: 2%;
+}
+
+.user_avater {
+  display: inline-block;
+}
