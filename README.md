@@ -1,4 +1,6 @@
 # CHETA
+### ( CHETA means < Remember, Memories, Reminiscence > in Igbo )
+
 Cheta is a photo sharing app build with React.js and Sanity.io, it is still in progress and is being built as a platform where users can share BEAUTIFUL memories
 
 ## FEATURES
